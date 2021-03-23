@@ -7,7 +7,8 @@
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "build": "parcel src/index.html"
+    "build": "parcel src/index.html",
+    "start": "parcel src/index.html"
   },
   "keywords": [],
   "author": "",
@@ -30,7 +31,8 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3"
   },
   "browserslist": [
     "last 2 Chrome versions"
