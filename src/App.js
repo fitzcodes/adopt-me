@@ -21,7 +21,7 @@ const App = () => {
             <Route path="/details/:id">
               <Details />
             </Route>
-            <Route path="/src">
+            <Route path="/">
               <SearchParams />
             </Route>
           </Switch>
