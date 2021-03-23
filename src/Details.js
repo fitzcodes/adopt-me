@@ -11,7 +11,7 @@ class Details extends Component {
 
   async componentDidMount() {
     const response = await fetch(
-      `https://pets-v2.dev-apis.com/pets?id=${this.props.match.params.id}`
+      `http://pets-v2.dev-apis.com/pets?id=${this.props.match.params.id}`
     );
     const json = await response.json();
     this.setState(
