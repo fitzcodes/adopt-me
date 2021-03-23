@@ -1,5 +1,6 @@
 {
   "name": "adopt-me",
+  "homepage": ".",
   "version": "1.0.0",
   "description": "The Adopt Me pet adoption app",
   "main": "src/index.js",
